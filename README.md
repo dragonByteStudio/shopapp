@@ -1,11 +1,11 @@
-Shop App
+Shop App (Working Title)
 
 _______________________________________________
 
-Simpel Grocery Shopping App
+Simple Grocery Shopping App
 
 -React Native Project
 
 dragonByte Studio
 
-Lead Developers: Matthew Restine and Arthur Prather Jr
+Lead Developers: Matthew R. and Arthur P. Jr
