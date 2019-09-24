@@ -1,0 +1,53 @@
+/* Login.js */
+.container {
+	height: 100%;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	width: 60px;
+	height: 60px;
+}
+
+.text {
+	margin-top: 10px;
+}
+
+.info {
+	margin-top: 10px;
+	width: 60%;
+}
+
+.input-content {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.input-content > input {
+	font-size: 1.2rem;
+	padding: 5px;
+	margin: 10px 0;
+}
+
+.button-content {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.button-content > button {
+	font-size: 1.2rem;
+	padding: 5px 20px;
+	margin: 10px 0;
+}
+
+.captcha {
+	background-color: green;
+	width: 30%;
+	margin: 0 auto;
+}
