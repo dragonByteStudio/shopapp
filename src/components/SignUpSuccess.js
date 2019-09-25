@@ -6,7 +6,7 @@ import '../assets/style/success.css';
 function SignInSuccess() {
 	return (
 		<div className={'container flex-column'}>
-			<div className={'welcome'}>
+			<div className={'text'}>
 				Welcome, <strong>John!</strong>
 			</div>
 			<div className={'flex-column button-content'}>

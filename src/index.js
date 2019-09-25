@@ -1,26 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-/* Components */
-//import Intro from './components/Intro';
-//import Login from './components/Login';
-//import LoginSuccess from './components/LoginSuccess';
-//import SignUp from './components/SignUp';
-//import SignUpSuccess from './components/SignUpSuccess';
-//import Loader from './components/Loader';
-//import Captcha from './components/Captcha';
-import Success from './components/Success';
-
 /* Style */
 // import './index.css';
 import './assets/style/global.css';
+
+/* Components */
+// import Intro from './components/Intro';
+// import Login from './components/Login';
+// import LoginSuccess from './components/LoginSuccess';
+// import SignUp from './components/SignUp';
+// import SignUpSuccess from './components/SignUpSuccess';
+// import Loader from './components/Loader';
+// import Captcha from './components/Captcha';
+//import Success from './components/Success';
+import List from './components/List';
 
 import * as serviceWorker from './serviceWorker';
 
 function App() {
 	return (
 		<div className={'mobile'}>
-			<Success />
+			<List />
 		</div>
 	);
 }

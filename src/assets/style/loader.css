@@ -1,13 +1,7 @@
 /* Loader.js */
-.container {
-	height: 100%;
-}
-
-.flex-column {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.text {
+	font-size: 1.5rem;
+	margin-top: 30px;
 }
 
 .loader {
@@ -23,9 +17,4 @@
 	to {
 		transform: rotate(360deg);
 	}
-}
-
-.text {
-	font-size: 1.5rem;
-	margin-top: 30px;
 }

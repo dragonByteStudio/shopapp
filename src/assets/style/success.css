@@ -1,17 +1,12 @@
 /* LoginSuccess.js & SignInSuccess.js*/
-.container {
-	height: 100%;
-}
 
-.flex-column {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.welcome {
+.text {
 	font-size: 2rem;
+}
+
+.info {
+	margin-top: 10px;
+	width: 60%;
 }
 
 .button-content {

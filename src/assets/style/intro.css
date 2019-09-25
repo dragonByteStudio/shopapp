@@ -1,15 +1,4 @@
 /* Intro.js */
-.container {
-	height: 100%;
-}
-
-.flex-column {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
 .text {
 	margin-top: 20px;
 }

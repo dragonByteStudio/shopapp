@@ -1,0 +1,106 @@
+/* List.js */
+.content {
+	padding: 20px;
+}
+
+.head {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+/* ==============
+  Header
+===============*/
+.header {
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.header p:nth-child(1) {
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+}
+
+.user img:nth-child(1) {
+	width: 30px;
+	margin: 10px;
+}
+
+.user img:nth-child(3) {
+	width: 20px;
+	margin-left: 5px;
+}
+
+.user p {
+	font-size: 0.8rem;
+}
+
+/* ==============
+  Sub Header
+===============*/
+.subheader {
+	align-items: center;
+	width: 95%;
+	margin: 10px auto;
+}
+
+/* add */
+.subheader > img:nth-child(1) {
+	width: 60px;
+}
+
+/* drop down */
+.subheader > p > img {
+	width: 25px;
+	margin: 0 10px;
+}
+
+/* group info */
+.subheader > .group-info {
+	display: flex;
+	justify-content: space-between;
+	width: 120px;
+}
+
+/* magnifying glass */
+.subheader > .group-info > img:nth-child(1) {
+	width: 50px;
+}
+
+/* kebab menu - expand */
+.subheader > .group-info > img:nth-child(2) {
+	width: 10px;
+}
+
+/* ==============
+  Sub Header
+===============*/
+.list {
+	width: 90%;
+	margin: 50px auto 0;
+}
+
+.list-card {
+	background-color: #fff;
+	width: 100%;
+	margin: 20px 0;
+	padding: 10px;
+	border-left: 8px solid #888;
+}
+
+.list-card__title {
+	color: #555;
+	font-size: 1.5rem;
+	padding-bottom: 5px;
+}
+
+.list-card__desc {
+	color: #888;
+	font-size: 1rem;
+}
