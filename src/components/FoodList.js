@@ -4,7 +4,7 @@ import React from 'react';
 import '../assets/style/food-list.css';
 
 //svg & img
-import add from '../assets/svg/button_add.svg';
+//import add from '../assets/svg/button_add.svg';
 import expand from '../assets/svg/chevron_down_outline.svg';
 import more from '../assets/svg/kabab_menu_icon.svg';
 import obama from '../assets/image/obama.png';
