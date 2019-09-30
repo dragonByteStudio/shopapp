@@ -1,0 +1,89 @@
+/* List.js */
+.content {
+	padding: 20px;
+}
+
+.head {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+/* ==============
+  Header
+===============*/
+
+.header {
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.header p:nth-child(1) {
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+}
+
+.user img:nth-child(1) {
+	width: 30px;
+	margin: 10px;
+}
+
+.user img:nth-child(3) {
+	width: 20px;
+	margin-left: 5px;
+}
+
+.user p {
+	font-size: 0.8rem;
+}
+
+/* ==============
+  List
+===============*/
+.list {
+	width: 90%;
+	margin: 50px auto 0;
+}
+
+.list-title {
+	font-size: 1.5rem;
+}
+
+.list-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	width: 100%;
+	margin: 10px 0;
+	padding: 10px;
+	font-size: 1.5rem;
+}
+
+.list-card-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.list-card-group > img:nth-child(2) {
+	width: 12px;
+}
+
+.list-card__quantity {
+	margin: 0 20px;
+}
+
+.list-card__price {
+	margin-right: 70px;
+}
+
+.checked {
+	font-style: italic;
+	text-decoration: line-through;
+}
