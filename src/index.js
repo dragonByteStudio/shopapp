@@ -15,16 +15,14 @@ import './assets/style/global.css';
 // import Captcha from './components/Captcha';
 //import Success from './components/Success';
 // import List from './components/List';
-import FoodList from './components/FoodList';
+// import FoodList from './components/FoodList';
+
+import Layout from './components/Layout';
 
 import * as serviceWorker from './serviceWorker';
 
 function App() {
-	return (
-		<div className={'mobile'}>
-			<FoodList />
-		</div>
-	);
+	return <Layout />;
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));

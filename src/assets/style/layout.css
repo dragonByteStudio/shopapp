@@ -1,0 +1,34 @@
+/* Layout.js */
+
+.mobile-layout {
+	display: block;
+	position: relative;
+}
+
+.desktop-layout {
+	min-height: 100vh;
+	display: none;
+	grid-template-columns: 200px auto;
+}
+
+.sideview {
+	background-color: #333;
+	color: #eee;
+	padding: 20px;
+}
+
+.mainview {
+	background-color: #eee;
+	color: #333;
+	padding: 20px;
+}
+
+/* media - desktop */
+@media (min-width: 1025px) {
+	.desktop-layout {
+		display: grid;
+	}
+	.mobile-layout {
+		display: none;
+	}
+}
