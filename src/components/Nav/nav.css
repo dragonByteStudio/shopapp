@@ -1,0 +1,59 @@
+.nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+
+.nav a {
+	color: #eee;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+.nav a:nth-child(5) {
+	padding-top: 40px;
+	color: orange;
+}
+
+.mobile-header {
+	background: green;
+	height: 40px;
+	padding: 10px;
+}
+
+.hamburger {
+	cursor: pointer;
+}
+
+.close {
+	color: #eee;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.slide-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 300px;
+	background: #333;
+	box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	z-index: 100;
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+	.mobile-mode {
+		display: none;
+	}
+}
+
+/* Mobile */
+@media screen and (max-width: 1024px) {
+	.desktop-mode {
+		display: none;
+	}
+}

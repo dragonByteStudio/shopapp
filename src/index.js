@@ -5,19 +5,7 @@ import ReactDOM from 'react-dom';
 // import './index.css';
 import './assets/style/global.css';
 
-/* Components */
-// import Intro from './components/Intro';
-// import Login from './components/Login';
-// import LoginSuccess from './components/LoginSuccess';
-// import SignUp from './components/SignUp';
-// import SignUpSuccess from './components/SignUpSuccess';
-// import Loader from './components/Loader';
-// import Captcha from './components/Captcha';
-//import Success from './components/Success';
-// import List from './components/List';
-// import FoodList from './components/FoodList';
-
-import Layout from './components/Layout';
+import Layout from './components/Layout/Layout';
 
 import * as serviceWorker from './serviceWorker';
 

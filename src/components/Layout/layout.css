@@ -1,0 +1,81 @@
+/* Layout.js */
+
+/* Layouts */
+/* .mobile-layout {
+	display: block;
+	position: relative;
+}
+
+.desktop-layout {
+	min-height: 100vh;
+	display: none;
+	grid-template-columns: 200px auto;
+} */
+
+/* .sideview {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	background-color: #333;
+	color: #eee;
+	padding: 20px;
+}
+
+.mainview {
+	background-color: #eee;
+	color: #333;
+	padding: 20px;
+} */
+
+/* media - desktop */
+/* @media (min-width: 1025px) {
+	.desktop-layout {
+		display: grid;
+	}
+	.mobile-layout {
+		display: none;
+	}
+} */
+
+/* Navs */
+.logo {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+/* Mobile Nav */
+.main {
+	display: grid;
+}
+
+.content {
+	padding: 40px;
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+	.main {
+		grid-template-columns: 20vh auto;
+		height: 100vh;
+		width: 100%;
+	}
+
+	.fixed {
+		position: fixed;
+		height: 100vh;
+	}
+
+	.sidebar {
+		background-color: #333;
+		color: #eee;
+		padding: 20px;
+	}
+
+	.content {
+		grid-column-start: 2;
+	}
+}
